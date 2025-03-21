@@ -6,10 +6,9 @@ Este repositório contém a API desenvolvida para o desafio da Sprint 03, utiliz
 
 ## 👥 Integrantes do Grupo
 
-|------|--------|
-| Integrante 1 | - Rafael de Novaes – RM553934 – 2TDSPC
-| Integrante 2 | - Fabiola Falcão – RM552715 – 2TDSPC
-| Integrante 3 | - Carlos Henrique Furtado Nascimento – RM553597 – 2TDSPR
+- Rafael de Novaes – RM553934 – 2TDSPC
+- Fabiola Falcão – RM552715 – 2TDSPC
+ - Carlos Henrique Furtado Nascimento – RM553597 – 2TDSPR
 
 
 ---

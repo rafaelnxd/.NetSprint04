@@ -1,0 +1,6 @@
+@Challenge_Sprint03_HostAddress = http://localhost:5187
+
+GET {{Challenge_Sprint03_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

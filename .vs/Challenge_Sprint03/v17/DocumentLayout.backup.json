@@ -1,0 +1,662 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\controllers\\habitoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\controllers\\habitoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\services\\usuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\services\\usuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\services\\unidadesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\services\\unidadesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\services\\registrohabitoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\services\\registrohabitoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\services\\habitoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\services\\habitoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\repositories\\unidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\repositories\\unidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\repositories\\registrohabitorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\repositories\\registrohabitorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\repositories\\iunidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\repositories\\iunidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\repositories\\iregistrohabitorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\repositories\\iregistrohabitorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\models\\unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\models\\unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\models\\registrohabito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\models\\registrohabito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\models\\habito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\models\\habito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\usuarioupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\usuarioupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\usuarioresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\usuarioresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\usuariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\usuariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\unidadeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\unidadeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\unidaderesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\unidaderesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\unidadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\unidadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\registrohabitoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\registrohabitoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\registrohabitoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\registrohabitoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\registrohabitodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\registrohabitodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\habitoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\habitoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\habitoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\habitoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\habitocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\habitocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\controllers\\unidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\controllers\\unidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\controllers\\registrohabitocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\controllers\\registrohabitocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dtos\\registrohabitocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dtos\\registrohabitocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\challenge_sprint03.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\challenge_sprint03.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|c:\\users\\rafae\\onedrive\\\u00E1rea de trabalho\\challenge_sprint03\\challenge_sprint03\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1E4E1647-D171-4D64-A45B-45C4BCF3DFDA}|Challenge_Sprint03\\Challenge_Sprint03.csproj|solutionrelative:challenge_sprint03\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnidadesService.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\UnidadesService.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Services\\UnidadesService.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\UnidadesService.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Services\\UnidadesService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:02:53.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuariosService.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\UsuariosService.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Services\\UsuariosService.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\UsuariosService.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Services\\UsuariosService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA9wEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:02:41.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HabitosController.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Controllers\\HabitosController.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Controllers\\HabitosController.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Controllers\\HabitosController.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Controllers\\HabitosController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAQwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:57:53.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T01:41:27.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\appsettings.json",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\appsettings.json",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\appsettings.json",
+              "RelativeToolTip": "Challenge_Sprint03\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-18T02:26:12.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Program.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Program.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Program.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:41:28.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Services\\SettingsService.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\SettingsService.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Services\\SettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:35:01.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistroHabitoService.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\RegistroHabitoService.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Services\\RegistroHabitoService.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\RegistroHabitoService.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Services\\RegistroHabitoService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:03:00.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HabitoService.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\HabitoService.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Services\\HabitoService.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Services\\HabitoService.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Services\\HabitoService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvyoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:47:59.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:58:25.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnidadeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\UnidadeRepository.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Repositories\\UnidadeRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\UnidadeRepository.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Repositories\\UnidadeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:58:08.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:44:27.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegistroHabitoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\RegistroHabitoRepository.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Repositories\\RegistroHabitoRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\RegistroHabitoRepository.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Repositories\\RegistroHabitoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:56:25.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Repositories\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Repositories\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:59:26.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUnidadeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\IUnidadeRepository.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Repositories\\IUnidadeRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\IUnidadeRepository.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Repositories\\IUnidadeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:59:09.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:43:59.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRegistroHabitoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\IRegistroHabitoRepository.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Repositories\\IRegistroHabitoRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Repositories\\IRegistroHabitoRepository.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Repositories\\IRegistroHabitoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:57:38.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\Usuario.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T02:24:30.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Unidade.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\Unidade.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Models\\Unidade.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\Unidade.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Models\\Unidade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T02:23:36.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegistroHabito.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\RegistroHabito.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Models\\RegistroHabito.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\RegistroHabito.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Models\\RegistroHabito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T02:25:00.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Habito.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\Habito.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Models\\Habito.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\Habito.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Models\\Habito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T02:23:03.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Models\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Models\\AppSettings.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Models\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:40:39.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsuarioUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UsuarioUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\UsuarioUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UsuarioUpdateDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\UsuarioUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:34:42.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UsuarioResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UsuarioResponseDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\UsuarioResponseDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UsuarioResponseDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\UsuarioResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:34:41.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UnidadeUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UnidadeUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\UnidadeUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UnidadeUpdateDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\UnidadeUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:34:39.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UnidadeResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UnidadeResponseDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\UnidadeResponseDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UnidadeResponseDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\UnidadeResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:34:39.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UnidadeCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UnidadeCreateDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\UnidadeCreateDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UnidadeCreateDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\UnidadeCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:34:38.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HabitoUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\HabitoUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\HabitoUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\HabitoUpdateDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\HabitoUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:50:53.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UsuarioCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UsuarioCreateDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\UsuarioCreateDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\UsuarioCreateDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\UsuarioCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:47:58.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HabitoResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\HabitoResponseDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\HabitoResponseDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\HabitoResponseDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\HabitoResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:50:57.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegistroHabitoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\RegistroHabitoDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\RegistroHabitoDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\RegistroHabitoDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\RegistroHabitoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:32:22.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegistroHabitoResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\RegistroHabitoResponseDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\RegistroHabitoResponseDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\RegistroHabitoResponseDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\RegistroHabitoResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:08:09.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegistroHabitoUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\RegistroHabitoUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\RegistroHabitoUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\RegistroHabitoUpdateDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\RegistroHabitoUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:23:14.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HabitoCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\HabitoCreateDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\HabitoCreateDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\HabitoCreateDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\HabitoCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:50:59.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAowHwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:58:17.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UnidadesController.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Controllers\\UnidadesController.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Controllers\\UnidadesController.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Controllers\\UnidadesController.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Controllers\\UnidadesController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:58:09.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RegistroHabitoController.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Controllers\\RegistroHabitoController.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Controllers\\RegistroHabitoController.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Controllers\\RegistroHabitoController.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\Controllers\\RegistroHabitoController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAowEoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:48:02.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegistroHabitoCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\RegistroHabitoCreateDTO.cs",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\DTOs\\RegistroHabitoCreateDTO.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\DTOs\\RegistroHabitoCreateDTO.cs",
+              "RelativeToolTip": "Challenge_Sprint03\\DTOs\\RegistroHabitoCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:23:09.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Challenge_Sprint03.http",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Challenge_Sprint03.http",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Challenge_Sprint03.http",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Challenge_Sprint03.http",
+              "RelativeToolTip": "Challenge_Sprint03\\Challenge_Sprint03.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-18T04:37:18.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Dockerfile",
+              "RelativeDocumentMoniker": "Challenge_Sprint03\\Dockerfile",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\\u00C1rea de Trabalho\\Challenge_Sprint03\\Challenge_Sprint03\\Dockerfile",
+              "RelativeToolTip": "Challenge_Sprint03\\Dockerfile",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-18T01:40:26.041Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

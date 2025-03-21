@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Challenge_Sprint03.props" />
+</Project>

@@ -179,7 +179,4 @@ CREATE TABLE Usuario (
 
 ---
 
-🎯 **Desenvolvido para o desafio da Sprint 03 - Projeto API**
-
-📅 **Última Atualização:** 20/03/2025
 

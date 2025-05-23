@@ -78,13 +78,6 @@ Foi implementada a integração com a API da **Brevo** (antiga Sendinblue), um s
 
 Quando um usuário é cadastrado na API, um e-mail transacional é enviado confirmando a realização do cadastro.
 
-### ✔️ Tecnologias utilizadas:
-
-- **HttpClient** configurado com autenticação por `api-key`.  
-- **Payload** enviado em JSON, conforme a especificação da Brevo.  
-- **Respostas** e **logs** tratados para garantir confiabilidade.  
-
-*Exemplo de classe:* `EmailService`.
 
 ---
 
@@ -107,7 +100,7 @@ Foi implementado o serviço `YoloService`, que realiza **detecção de objetos**
 
 ## 🤖 Integração com AI Generativa
 
-Além da detecção de imagens, também foi implementada a integração com **OpenAI GPT-3.5 Turbo**, usando a API oficial via **REST**.
+Além da detecção de imagens, também foi implementada a integração com ChatGPT, usando a API oficial via **REST**.
 
 
 ### ✔️ RecomendacaoService
@@ -187,17 +180,6 @@ Verificar a **integração real** entre as classes: Service + Repository + DbCon
 
 ---
 
-### ✅ 3. Boas práticas adotadas
-
-- Cada teste cria seu próprio `DbContext` com banco exclusivo via `Guid`.
-- Uso consistente de `Assert` para validação.
-- Métodos de teste seguem a nomenclatura clara:  
-  **`Deve[ResultadoEsperado]`** → facilita entendimento.
-- Cobre tanto:
-  - **Caminhos de sucesso**
-  - **Caminhos de exceção**
-
----
 
 ### ✅ 4. Como rodar os testes
 

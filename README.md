@@ -283,13 +283,7 @@ dotnet run
   "cidade": "São Paulo",
   "endereco": "Av. Paulista, 1500"
 }
-```
 
-### ▶️ Usuarios *(PATCH)*
-
-```json
-5
-```
 
 ---
 

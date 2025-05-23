@@ -1,6 +1,6 @@
-# 🚀 Challenge Sprint 03 API
+# 🚀 Challenge Sprint 04 API
 
-Este repositório contém a API desenvolvida para o desafio da Sprint 03, utilizando **ASP.NET Core Web API**, **Oracle** como banco de dados e diversos padrões de design e boas práticas de arquitetura de software.
+Este repositório contém a API desenvolvida para o desafio da Sprint 04, utilizando **ASP.NET Core Web API**, **Oracle** como banco de dados e diversos padrões de design e boas práticas de arquitetura de software.
 
 ---
 

@@ -17,7 +17,6 @@ namespace Challenge_Sprint03.Services
             _registroRepository = registroRepository;
         }
 
-        // Retorna uma lista de registros mapeados para o DTO de resposta
         public async Task<IEnumerable<RegistroHabitoResponseDTO>> GetAllAsync()
         {
             var registros = await _registroRepository.GetAllWithHabitoAsync();
@@ -31,20 +30,17 @@ namespace Challenge_Sprint03.Services
             return dtoList;
         }
 
-        // Retorna a entidade RegistroHabito para um ID
         public async Task<RegistroHabito> GetByIdAsync(int id)
         {
             return await _registroRepository.GetByIdAsync(id);
         }
 
-        // Cria um novo registro e define a data atual
         public async Task CreateRegistroAsync(RegistroHabito registro)
         {
             registro.Data = DateTime.Now;
             await _registroRepository.AddAsync(registro);
         }
 
-        // Atualiza um registro existente
         public async Task UpdateRegistroAsync(RegistroHabito registro)
         {
             var registroExistente = await _registroRepository.GetByIdAsync(registro.Id);
@@ -58,7 +54,7 @@ namespace Challenge_Sprint03.Services
             await _registroRepository.UpdateAsync(registroExistente);
         }
 
-        // Exclui um registro pelo ID
+
         public async Task DeleteRegistroAsync(int id)
         {
             await _registroRepository.DeleteAsync(id);

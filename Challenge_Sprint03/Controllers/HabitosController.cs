@@ -1,6 +1,7 @@
 ﻿using Challenge_Sprint03.Models;
 using Challenge_Sprint03.Models.DTOs;
 using Challenge_Sprint03.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,8 +20,13 @@ namespace Challenge_Sprint03.Controllers
             _habitoService = habitoService;
         }
 
-        // GET: api/Habitos
+        /// <summary>
+        /// Retorna todos os hábitos cadastrados.
+        /// </summary>
+        /// <returns>Lista de hábitos.</returns>
+        /// <response code="200">Lista retornada com sucesso.</response>
         [HttpGet]
+        [ProducesResponseType(typeof(IEnumerable<HabitoResponseDTO>), StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<HabitoResponseDTO>>> GetHabitos()
         {
             var habitos = await _habitoService.GetAllHabitosAsync();
@@ -34,8 +40,16 @@ namespace Challenge_Sprint03.Controllers
             return Ok(habitosDTO);
         }
 
-        // GET: api/Habitos/{id}
+        /// <summary>
+        /// Retorna um hábito específico pelo ID.
+        /// </summary>
+        /// <param name="id">ID do hábito.</param>
+        /// <returns>Dados do hábito.</returns>
+        /// <response code="200">Hábito encontrado.</response>
+        /// <response code="404">Hábito não encontrado.</response>
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(HabitoResponseDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<HabitoResponseDTO>> GetHabito(int id)
         {
             var habito = await _habitoService.GetHabitoByIdAsync(id);
@@ -52,8 +66,16 @@ namespace Challenge_Sprint03.Controllers
             return Ok(habitoDTO);
         }
 
-        // POST: api/Habitos
+        /// <summary>
+        /// Cadastra um novo hábito.
+        /// </summary>
+        /// <param name="habitoCreateDTO">Dados do novo hábito.</param>
+        /// <returns>Hábito criado.</returns>
+        /// <response code="201">Hábito criado com sucesso.</response>
+        /// <response code="400">Dados inválidos.</response>
         [HttpPost]
+        [ProducesResponseType(typeof(HabitoResponseDTO), StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<HabitoResponseDTO>> PostHabito([FromBody] HabitoCreateDTO habitoCreateDTO)
         {
             if (habitoCreateDTO.FrequenciaIdeal < 1 || habitoCreateDTO.FrequenciaIdeal > 7)
@@ -79,8 +101,17 @@ namespace Challenge_Sprint03.Controllers
             return CreatedAtAction(nameof(GetHabito), new { id = habito.HabitoId }, habitoResponse);
         }
 
-        // PUT: api/Habitos/{id}
+        /// <summary>
+        /// Atualiza um hábito existente.
+        /// </summary>
+        /// <param name="id">ID do hábito a ser atualizado.</param>
+        /// <param name="habitoUpdateDTO">Dados atualizados do hábito.</param>
+        /// <returns>Status da operação.</returns>
+        /// <response code="204">Atualização realizada com sucesso.</response>
+        /// <response code="400">Dados inválidos.</response>
         [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> PutHabito(int id, [FromBody] HabitoUpdateDTO habitoUpdateDTO)
         {
             if (id != habitoUpdateDTO.HabitoId)
@@ -101,8 +132,16 @@ namespace Challenge_Sprint03.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Habitos/{id}
+        /// <summary>
+        /// Remove um hábito existente.
+        /// </summary>
+        /// <param name="id">ID do hábito a ser excluído.</param>
+        /// <returns>Status da operação.</returns>
+        /// <response code="204">Exclusão realizada com sucesso.</response>
+        /// <response code="404">Hábito não encontrado.</response>
         [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> DeleteHabito(int id)
         {
             var habito = await _habitoService.GetHabitoByIdAsync(id);

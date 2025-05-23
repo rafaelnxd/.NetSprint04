@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Challenge_Sprint03.Models.Habito, Challenge_Sprint03, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Challenge_Sprint03.Models.DTOs.HabitoResponseDTO, Challenge_Sprint03, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,20 +28,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "habito",
-        "Type": "Challenge_Sprint03.Models.Habito",
+        "Name": "habitoCreateDTO",
+        "Type": "Challenge_Sprint03.Models.DTOs.HabitoCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Challenge_Sprint03.Models.Habito",
+        "Type": "Challenge_Sprint03.Models.DTOs.HabitoResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
-        "StatusCode": 200
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
@@ -61,13 +70,22 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Challenge_Sprint03.Models.Habito",
+        "Type": "Challenge_Sprint03.Models.DTOs.HabitoResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },
@@ -85,12 +103,27 @@
         "IsRequired": true
       },
       {
-        "Name": "habito",
-        "Type": "Challenge_Sprint03.Models.Habito",
+        "Name": "habitoUpdateDTO",
+        "Type": "Challenge_Sprint03.Models.DTOs.HabitoUpdateDTO",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
   },
   {
     "ContainingType": "Challenge_Sprint03.Controllers.HabitosController",
@@ -106,7 +139,48 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.RecomendacaoController",
+    "Method": "Post",
+    "RelativePath": "api/Recomendacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Challenge_Sprint03.Models.RecomendacaoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Challenge_Sprint03.Models.RecomendacaoResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Challenge_Sprint03.Controllers.RegistroHabitoController",
@@ -118,7 +192,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Challenge_Sprint03.Models.RegistroHabitoDTO, Challenge_Sprint03, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Challenge_Sprint03.Models.DTOs.RegistroHabitoResponseDTO, Challenge_Sprint03, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -137,20 +211,91 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "registro",
-        "Type": "Challenge_Sprint03.Models.RegistroHabito",
+        "Name": "registroCreateDTO",
+        "Type": "Challenge_Sprint03.Models.DTOs.RegistroHabitoCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Challenge_Sprint03.Models.RegistroHabito",
+        "Type": "Challenge_Sprint03.Models.DTOs.RegistroHabitoResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.RegistroHabitoController",
+    "Method": "GetRegistro",
+    "RelativePath": "api/RegistroHabito/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Challenge_Sprint03.Models.DTOs.RegistroHabitoResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.RegistroHabitoController",
+    "Method": "PutRegistro",
+    "RelativePath": "api/RegistroHabito/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "registroUpdateDTO",
+        "Type": "Challenge_Sprint03.Models.DTOs.RegistroHabitoUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
@@ -168,7 +313,13 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
   },
   {
     "ContainingType": "Challenge_Sprint03.Controllers.UnidadesController",
@@ -180,7 +331,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Challenge_Sprint03.Models.Unidade, Challenge_Sprint03, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Challenge_Sprint03.Models.DTOs.UnidadeResponseDTO, Challenge_Sprint03, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -199,20 +350,131 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "unidade",
-        "Type": "Challenge_Sprint03.Models.Unidade",
+        "Name": "unidadeCreateDTO",
+        "Type": "Challenge_Sprint03.Models.DTOs.UnidadeCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Challenge_Sprint03.Models.Unidade",
+        "Type": "Challenge_Sprint03.Models.DTOs.UnidadeResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.UnidadesController",
+    "Method": "GetUnidade",
+    "RelativePath": "api/Unidades/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Challenge_Sprint03.Models.DTOs.UnidadeResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.UnidadesController",
+    "Method": "PutUnidade",
+    "RelativePath": "api/Unidades/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "unidadeUpdateDTO",
+        "Type": "Challenge_Sprint03.Models.DTOs.UnidadeUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.UnidadesController",
+    "Method": "DeleteUnidade",
+    "RelativePath": "api/Unidades/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },
@@ -226,7 +488,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Challenge_Sprint03.Models.Usuario, Challenge_Sprint03, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Challenge_Sprint03.Models.DTOs.UsuarioResponseDTO, Challenge_Sprint03, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -245,20 +507,131 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuario",
-        "Type": "Challenge_Sprint03.Models.Usuario",
+        "Name": "dto",
+        "Type": "Challenge_Sprint03.Models.DTOs.UsuarioCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Challenge_Sprint03.Models.Usuario",
+        "Type": "Challenge_Sprint03.Models.DTOs.UsuarioResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.UsuariosController",
+    "Method": "GetUsuario",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Challenge_Sprint03.Models.DTOs.UsuarioResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.UsuariosController",
+    "Method": "PutUsuario",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Challenge_Sprint03.Models.DTOs.UsuarioUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.UsuariosController",
+    "Method": "DeleteUsuario",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },
@@ -281,19 +654,31 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Challenge_Sprint03.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Challenge_Sprint03.WeatherForecast, Challenge_Sprint03, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
+  },
+  {
+    "ContainingType": "Challenge_Sprint03.Controllers.YoloController",
+    "Method": "Detectar",
+    "RelativePath": "api/Yolo/detectar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Challenge_Sprint03.Models.YoloRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Challenge_Sprint03.Models.YoloResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -301,7 +686,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]

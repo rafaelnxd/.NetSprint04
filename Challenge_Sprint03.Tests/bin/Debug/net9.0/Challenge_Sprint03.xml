@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Challenge_Sprint03</name>
+    </assembly>
+    <members>
+        <member name="M:Challenge_Sprint03.Controllers.HabitosController.GetHabitos">
+            <summary>
+            Retorna todos os hábitos cadastrados.
+            </summary>
+            <returns>Lista de hábitos.</returns>
+            <response code="200">Lista retornada com sucesso.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.HabitosController.GetHabito(System.Int32)">
+            <summary>
+            Retorna um hábito específico pelo ID.
+            </summary>
+            <param name="id">ID do hábito.</param>
+            <returns>Dados do hábito.</returns>
+            <response code="200">Hábito encontrado.</response>
+            <response code="404">Hábito não encontrado.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.HabitosController.PostHabito(Challenge_Sprint03.Models.DTOs.HabitoCreateDTO)">
+            <summary>
+            Cadastra um novo hábito.
+            </summary>
+            <param name="habitoCreateDTO">Dados do novo hábito.</param>
+            <returns>Hábito criado.</returns>
+            <response code="201">Hábito criado com sucesso.</response>
+            <response code="400">Dados inválidos.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.HabitosController.PutHabito(System.Int32,Challenge_Sprint03.Models.DTOs.HabitoUpdateDTO)">
+            <summary>
+            Atualiza um hábito existente.
+            </summary>
+            <param name="id">ID do hábito a ser atualizado.</param>
+            <param name="habitoUpdateDTO">Dados atualizados do hábito.</param>
+            <returns>Status da operação.</returns>
+            <response code="204">Atualização realizada com sucesso.</response>
+            <response code="400">Dados inválidos.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.HabitosController.DeleteHabito(System.Int32)">
+            <summary>
+            Remove um hábito existente.
+            </summary>
+            <param name="id">ID do hábito a ser excluído.</param>
+            <returns>Status da operação.</returns>
+            <response code="204">Exclusão realizada com sucesso.</response>
+            <response code="404">Hábito não encontrado.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.RegistroHabitoController.GetRegistros">
+            <summary>
+            Retorna todos os registros de hábitos.
+            </summary>
+            <returns>Lista de registros.</returns>
+            <response code="200">Registros retornados com sucesso.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.RegistroHabitoController.GetRegistro(System.Int32)">
+            <summary>
+            Retorna um registro específico pelo ID.
+            </summary>
+            <param name="id">ID do registro.</param>
+            <returns>Dados do registro.</returns>
+            <response code="200">Registro encontrado.</response>
+            <response code="404">Registro não encontrado.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.RegistroHabitoController.PostRegistro(Challenge_Sprint03.Models.DTOs.RegistroHabitoCreateDTO)">
+            <summary>
+            Cria um novo registro de hábito.
+            </summary>
+            <param name="registroCreateDTO">Dados do novo registro.</param>
+            <returns>Registro criado.</returns>
+            <response code="201">Registro criado com sucesso.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.RegistroHabitoController.PutRegistro(System.Int32,Challenge_Sprint03.Models.DTOs.RegistroHabitoUpdateDTO)">
+            <summary>
+            Atualiza um registro de hábito existente.
+            </summary>
+            <param name="id">ID do registro.</param>
+            <param name="registroUpdateDTO">Dados atualizados do registro.</param>
+            <returns>Status da operação.</returns>
+            <response code="204">Atualização bem-sucedida.</response>
+            <response code="400">ID inválido.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.RegistroHabitoController.DeleteRegistro(System.Int32)">
+            <summary>
+            Exclui um registro de hábito.
+            </summary>
+            <param name="id">ID do registro.</param>
+            <returns>Status da operação.</returns>
+            <response code="204">Registro removido com sucesso.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.UnidadesController.GetUnidades">
+            <summary>
+            Retorna todas as unidades cadastradas.
+            </summary>
+            <returns>Lista de unidades.</returns>
+            <response code="200">Unidades retornadas com sucesso.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.UnidadesController.GetUnidade(System.Int32)">
+            <summary>
+            Retorna uma unidade específica pelo ID.
+            </summary>
+            <param name="id">ID da unidade.</param>
+            <returns>Dados da unidade.</returns>
+            <response code="200">Unidade encontrada.</response>
+            <response code="404">Unidade não encontrada.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.UnidadesController.PostUnidade(Challenge_Sprint03.Models.DTOs.UnidadeCreateDTO)">
+            <summary>
+            Cria uma nova unidade.
+            </summary>
+            <param name="unidadeCreateDTO">Dados da nova unidade.</param>
+            <returns>Unidade criada.</returns>
+            <response code="201">Unidade criada com sucesso.</response>
+            <response code="400">Dados inválidos.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.UnidadesController.PutUnidade(System.Int32,Challenge_Sprint03.Models.DTOs.UnidadeUpdateDTO)">
+            <summary>
+            Atualiza uma unidade existente.
+            </summary>
+            <param name="id">ID da unidade.</param>
+            <param name="unidadeUpdateDTO">Dados atualizados da unidade.</param>
+            <returns>Status da operação.</returns>
+            <response code="204">Atualização bem-sucedida.</response>
+            <response code="400">Dados inválidos.</response>
+        </member>
+        <member name="M:Challenge_Sprint03.Controllers.UnidadesController.DeleteUnidade(System.Int32)">
+            <summary>
+            Remove uma unidade pelo ID.
+            </summary>
+            <param name="id">ID da unidade.</param>
+            <returns>Status da operação.</returns>
+            <response code="204">Unidade removida com sucesso.</response>
+            <response code="404">Unidade não encontrada.</response>
+        </member>
+        <member name="T:Challenge_Sprint03.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:Challenge_Sprint03.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Challenge_Sprint03.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Challenge_Sprint03.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Challenge_Sprint03.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Challenge_Sprint03.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Challenge_Sprint03.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Challenge_Sprint03.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Challenge_Sprint03.Services.EmailResult">
+            <summary>
+            Dados devolvidos após a tentativa de envio.
+            </summary>
+        </member>
+        <member name="M:Challenge_Sprint03.Services.EmailResult.#ctor(System.Boolean,System.Int32,System.String)">
+            <summary>
+            Dados devolvidos após a tentativa de envio.
+            </summary>
+        </member>
+        <member name="M:Challenge_Sprint03.Services.EmailService.EnviarEmailAsync(System.String,System.String,System.String)">
+            <summary>
+            Envia e-mail transacional via Brevo API.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Challenge_Sprint03",
-    "\\Challenge_Sprint03\\Services"
+    "\\Challenge_Sprint03.Tests",
+    "\\Challenge_Sprint03.Tests\\Controllers",
+    "\\Challenge_Sprint03.Tests\\Services"
   ],
-  "SelectedNode": "\\Challenge_Sprint03.sln",
+  "SelectedNode": "\\Challenge_Sprint03\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

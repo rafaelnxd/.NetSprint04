@@ -28,7 +28,7 @@ namespace Challenge_Sprint03.Services
 
         public async Task<Usuario> CreateUsuarioAsync(Usuario usuario)
         {
-            // Verifica se o email já existe
+            
             var usuariosExistentes = await _usuarioRepository.FindAsync(u => u.Email == usuario.Email);
             if (usuariosExistentes.Any())
                 throw new Exception("Email já cadastrado");
@@ -46,7 +46,7 @@ namespace Challenge_Sprint03.Services
             if (usuarioExistente == null)
                 throw new Exception("Usuário não encontrado");
 
-            // Atualiza os campos necessários
+            
             usuarioExistente.Email = usuario.Email;
             usuarioExistente.Nome = usuario.Nome;
             usuarioExistente.Senha = usuario.Senha;

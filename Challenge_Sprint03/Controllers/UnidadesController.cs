@@ -1,6 +1,7 @@
 ﻿using Challenge_Sprint03.Models;
 using Challenge_Sprint03.Models.DTOs;
 using Challenge_Sprint03.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,8 +20,13 @@ namespace Challenge_Sprint03.Controllers
             _unidadesService = unidadesService;
         }
 
-        // GET: api/Unidades
+        /// <summary>
+        /// Retorna todas as unidades cadastradas.
+        /// </summary>
+        /// <returns>Lista de unidades.</returns>
+        /// <response code="200">Unidades retornadas com sucesso.</response>
         [HttpGet]
+        [ProducesResponseType(typeof(IEnumerable<UnidadeResponseDTO>), StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<UnidadeResponseDTO>>> GetUnidades()
         {
             var unidades = await _unidadesService.GetAllAsync();
@@ -35,8 +41,16 @@ namespace Challenge_Sprint03.Controllers
             return Ok(unidadesDTO);
         }
 
-        // GET: api/Unidades/{id}
+        /// <summary>
+        /// Retorna uma unidade específica pelo ID.
+        /// </summary>
+        /// <param name="id">ID da unidade.</param>
+        /// <returns>Dados da unidade.</returns>
+        /// <response code="200">Unidade encontrada.</response>
+        /// <response code="404">Unidade não encontrada.</response>
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(UnidadeResponseDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<UnidadeResponseDTO>> GetUnidade(int id)
         {
             var unidade = await _unidadesService.GetByIdAsync(id);
@@ -54,8 +68,16 @@ namespace Challenge_Sprint03.Controllers
             return Ok(unidadeDTO);
         }
 
-        // POST: api/Unidades
+        /// <summary>
+        /// Cria uma nova unidade.
+        /// </summary>
+        /// <param name="unidadeCreateDTO">Dados da nova unidade.</param>
+        /// <returns>Unidade criada.</returns>
+        /// <response code="201">Unidade criada com sucesso.</response>
+        /// <response code="400">Dados inválidos.</response>
         [HttpPost]
+        [ProducesResponseType(typeof(UnidadeResponseDTO), StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<UnidadeResponseDTO>> PostUnidade([FromBody] UnidadeCreateDTO unidadeCreateDTO)
         {
             if (string.IsNullOrWhiteSpace(unidadeCreateDTO.Endereco))
@@ -83,8 +105,17 @@ namespace Challenge_Sprint03.Controllers
             return CreatedAtAction(nameof(GetUnidade), new { id = unidade.UnidadeId }, unidadeResponse);
         }
 
-        // PUT: api/Unidades/{id}
+        /// <summary>
+        /// Atualiza uma unidade existente.
+        /// </summary>
+        /// <param name="id">ID da unidade.</param>
+        /// <param name="unidadeUpdateDTO">Dados atualizados da unidade.</param>
+        /// <returns>Status da operação.</returns>
+        /// <response code="204">Atualização bem-sucedida.</response>
+        /// <response code="400">Dados inválidos.</response>
         [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> PutUnidade(int id, [FromBody] UnidadeUpdateDTO unidadeUpdateDTO)
         {
             if (id != unidadeUpdateDTO.UnidadeId)
@@ -103,8 +134,16 @@ namespace Challenge_Sprint03.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Unidades/{id}
+        /// <summary>
+        /// Remove uma unidade pelo ID.
+        /// </summary>
+        /// <param name="id">ID da unidade.</param>
+        /// <returns>Status da operação.</returns>
+        /// <response code="204">Unidade removida com sucesso.</response>
+        /// <response code="404">Unidade não encontrada.</response>
         [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> DeleteUnidade(int id)
         {
             var unidade = await _unidadesService.GetByIdAsync(id);

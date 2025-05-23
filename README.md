@@ -12,6 +12,12 @@ Este repositório contém a API desenvolvida para o desafio da Sprint 04, utiliz
 
 ---
 
+## 🎥 Demonstração em Vídeo
+
+Confira a demonstração completa da API no YouTube:  
+[![Assista no YouTube](https://img.youtube.com/vi/p4MSzIcygHc/0.jpg)](https://www.youtube.com/watch?v=p4MSzIcygHc)
+
+
 ## 🛠️ Arquitetura e Design
 
 ### 🔗 Arquitetura

@@ -145,7 +145,7 @@ Garantir que cada **componente isolado** do sistema funciona corretamente, sem d
 ✅ Foco em lógica isolada  
 ✅ Fácil manutenção
 
----
+
 
 ### ✔️ Testes de Integração (Integration Tests)
 
@@ -227,13 +227,15 @@ cd Challenge_Sprint04
 
 ### 2️⃣ Configure as credenciais no AppSettings.json*
 
-
+---
 
 ### 3️⃣ Restaurar pacotes NuGet
 
 ```bash
 dotnet restore
 ```
+
+---
 
 ### 4️⃣ Aplicar Migrations
 
@@ -242,11 +244,15 @@ dotnet ef migrations add InitialMigration
 dotnet ef database update
 ```
 
+---
+
 ### 5️⃣ Executar a aplicação
 
 ```bash
 dotnet run
 ```
+
+---
 
 🔗 API disponível em: [`https://localhost:5001`](https://localhost:5001)
 
